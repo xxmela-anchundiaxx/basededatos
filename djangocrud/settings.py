@@ -82,7 +82,7 @@ if 'RENDER' in os.environ:
     # Usar PostgreSQL en producción (Render)
     DATABASES = {
         'default': dj_database_url.config(
-            default='postgresql://postgres:postgres@localhost:5432/mysite',
+            default='postgresql://basededatoslanube_user:r4wqFxbqpgGkKUQ9H9t84MDKxRYbmr1v@dpg-d5c5d9muk2gs73fnrb0g-a/basededatoslanube',
             conn_max_age=600
         )    
     }
